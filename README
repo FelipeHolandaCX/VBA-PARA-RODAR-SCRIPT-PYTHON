@@ -1,0 +1,45 @@
+Passos Detalhados
+1. Criar um Formulário Oculto para Inicialização
+Criar um Novo Formulário:
+
+No Access, vá para Criar > Formulário.
+Salvar o Formulário:
+
+Salve o formulário com um nome, por exemplo, frmInicializacao.
+Definir o Evento Ao Abrir:
+
+Abra o formulário em modo de design.
+Clique com o botão direito no formulário e selecione Propriedades.
+Na aba Evento, encontre Ao Abrir (On Open) e clique nos três pontos ... ao lado do campo para abrir o editor de código VBA.
+Adicionar o Código VBA:
+
+No editor VBA, adicione o seguinte código para chamar a função ExecutarScriptPython, minimizar o Access e fechar o Access após a execução.
+
+2. Escrever a Função VBA em um Módulo Padrão
+Certifique-se de que a função ExecutarScriptPython está definida em um módulo padrão.
+
+3. Definir o Formulário Inicial
+Abrir o Access em Modo de Design:
+
+Feche o formulário se estiver aberto.
+No Access, vá para Arquivo > Opções.
+Definir o Formulário Inicial:
+
+Na janela Opções do Access, selecione Banco de Dados Atual.
+No campo Exibir Formulário, selecione o formulário frmInicializacao.
+Salvar e Fechar as Opções:
+
+Clique em OK para salvar as alterações.
+4. Ocultar o Formulário
+Para ocultar o formulário ao abri-lo automaticamente:
+
+Modificar Propriedades do Formulário:
+Abra o formulário frmInicializacao em modo de design.
+Nas propriedades do formulário, vá até a aba Formato e defina Visível como Não.
+
+4. Ocultar o Formulário
+Para ocultar o formulário ao abri-lo automaticamente:
+
+Modificar Propriedades do Formulário:
+Abra o formulário frmInicializacao em modo de design.
+Nas propriedades do formulário, vá até a aba Formato e defina Visível como Não.
